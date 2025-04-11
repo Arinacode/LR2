@@ -132,7 +132,7 @@ int main() {
     cout << "\n--- Наследование: Circle ---" << endl;
     Circle c1(1, 2, 5);
     c1.show();
-
+    //'nj abrcfwbz vjz
     cout << "--- Указатель на базовый класс → Circle ---" << endl;
     Point* base = new Circle(3, 4, 6);
     delete base; // вызов виртуального деструктора
